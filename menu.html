@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Coffitee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h2>Coffitee ☕</h2>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html" class="active">Menu</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="page-heading">
+        <h1>Our Menu</h1>
+        <h3>FRESHLY PREPARED, JUST FOR YOU</h3>
+        <p>Explore our selection of coffee, cold drinks and treats.</p>
+    </header>
+
+    <main>
+        <section class="menu-section">
+            <h2>Hot Coffee ☕</h2>
+            <div class="menu-grid">
+                <article class="menu-card"><h3>Espresso</h3><p>Strong and rich traditional coffee.</p><h4>Rs. 450</h4><button onclick="placeOrder('Espresso')">Order Now</button></article>
+                <article class="menu-card"><h3>Cappuccino</h3><p>Espresso topped with creamy milk foam.</p><h4>Rs. 550</h4><button onclick="placeOrder('Cappuccino')">Order Now</button></article>
+                <article class="menu-card"><h3>Latte</h3><p>Smooth coffee blended with steamed milk.</p><h4>Rs. 600</h4><button onclick="placeOrder('Latte')">Order Now</button></article>
+                <article class="menu-card"><h3>Mocha</h3><p>A delicious combination of coffee and chocolate.</p><h4>Rs. 650</h4><button onclick="placeOrder('Mocha')">Order Now</button></article>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Iced Drinks 🧊</h2>
+            <div class="menu-grid">
+                <article class="menu-card"><h3>Iced Latte</h3><p>Chilled espresso mixed with fresh milk.</p><h4>Rs. 600</h4><button onclick="placeOrder('Iced Latte')">Order Now</button></article>
+                <article class="menu-card"><h3>Iced Americano</h3><p>Refreshing cold coffee with water and ice.</p><h4>Rs. 500</h4><button onclick="placeOrder('Iced Americano')">Order Now</button></article>
+                <article class="menu-card"><h3>Cold Coffee</h3><p>Chilled creamy coffee for a refreshing break.</p><h4>Rs. 550</h4><button onclick="placeOrder('Cold Coffee')">Order Now</button></article>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Pastries 🥐</h2>
+            <div class="menu-grid">
+                <article class="menu-card"><h3>Chocolate Croissant</h3><p>Flaky pastry filled with rich chocolate.</p><h4>Rs. 350</h4><button onclick="placeOrder('Chocolate Croissant')">Order Now</button></article>
+                <article class="menu-card"><h3>Chocolate Cake</h3><p>Soft and delicious chocolate cake.</p><h4>Rs. 450</h4><button onclick="placeOrder('Chocolate Cake')">Order Now</button></article>
+                <article class="menu-card"><h3>Blueberry Muffin</h3><p>Freshly baked muffin with blueberries.</p><h4>Rs. 300</h4><button onclick="placeOrder('Blueberry Muffin')">Order Now</button></article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>Coffitee ☕</h2>
+        <p>Fresh Coffee. Fresh Beginnings.</p>
+        <p>© 2026 Coffitee. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
